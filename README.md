@@ -60,7 +60,7 @@ El sistema implementa mecanismos modernos de autenticación y autorización util
 ## 1. Clonar el proyecto
 
 ```bash
-git clone <repositorio>
+git clone https://github.com/IsraelFuertes/inf781-examen-securenotes.git
 ```
 
 ---
@@ -374,9 +374,19 @@ El endpoint `/auth/sessions` muestra las sesiones activas del usuario.
 
 **Descripción**
 
-Se muestran las tablas utilizadas por el proyecto (`users`, `notes` y `refresh_tokens`) junto con los registros generados durante las pruebas.
+Se muestran las tablas utilizadas por el proyecto y los registros generados durante las pruebas realizadas.
 
-![Base de Datos](evidencias/15-database.png)
+### Tabla users
+
+![Tabla users](evidencias/15-users.png)
+
+### Tabla notes
+
+![Tabla notes](evidencias/16-notes.png)
+
+### Tabla refresh_tokens
+
+![Tabla refresh tokens](evidencias/17-refresh-tokens.png)
 
 ---
 
